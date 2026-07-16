@@ -1,0 +1,39 @@
+Package: biol202
+Title: Tutorials and Datasets for BIOL 202: Introduction to Biostatistics
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jason", "Pither", , "pitherj@gmail.com", role = c("aut", "cre"))
+Description: Course materials for BIOL 202 (Introduction to Biostatistics)
+    at UBC Okanagan: documented teaching datasets, tutorial vignettes, and
+    seeded generators for assignment dataset variants.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en-CA
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: 
+    binom,
+    boot,
+    broom,
+    car,
+    dplyr,
+    epitools,
+    ggExtra,
+    ggplot2,
+    gtsummary,
+    here,
+    infer,
+    janitor,
+    kableExtra,
+    knitr,
+    palmerpenguins,
+    readr,
+    skimr,
+    stats,
+    utils
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
