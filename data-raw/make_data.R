@@ -84,8 +84,10 @@ haircolour <- read_raw("haircolour.csv") |>
   mutate(colour = factor(colour))
 
 # Mycorrhizal status of 50 plant species. Fictitious data authored for the
-# course. Note: this file contains genuine missing values, which is the point --
-# it is used to teach missing-value checks.
+# course. NOTE: despite an earlier comment here to the contrary, this file has
+# NO missing values -- all 50 rows carry one of AM/ECM/ErM/NM. Do not write an
+# assignment question asking students to count missing values in it; use the
+# palmerpenguins data for that, which genuinely has them.
 myco_status <- read_raw("myco_status.csv") |>
   mutate(myco_status = factor(myco_status))
 
