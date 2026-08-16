@@ -1,9 +1,13 @@
 #' biol202: Tutorials and Datasets for BIOL 202
 #'
 #' Course materials for BIOL 202 (Introduction to Biostatistics) at UBC
-#' Okanagan. The package bundles the documented teaching datasets, the tutorial
-#' vignettes, and the seeded generators used to build per-section assignment
-#' variants.
+#' Okanagan. The package bundles the documented teaching datasets used
+#' throughout the lab tutorials, and installs every other R package the course
+#' requires.
+#'
+#' The tutorials themselves are a separate website, so that corrections can be
+#' published mid-term without students having to reinstall anything:
+#' <https://ubco-biology.github.io/BIOL202-lab-tutorials/>.
 #'
 #' @section Installing:
 #' Students install the package once, at the start of term:

@@ -4,8 +4,9 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Jason", "Pither", , "pitherj@gmail.com", role = c("aut", "cre"))
 Description: Course materials for BIOL 202 (Introduction to Biostatistics)
-    at UBC Okanagan: documented teaching datasets, tutorial vignettes, and
-    seeded generators for assignment dataset variants.
+    at UBC Okanagan: the documented teaching datasets used throughout the lab
+    tutorials. Installing this package also installs every other R package the
+    course requires, so students set up their environment in one step.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Language: en-CA
@@ -30,6 +31,7 @@ Imports:
     readr,
     skimr,
     stats,
+    tidyr,
     utils
 Depends: 
     R (>= 3.5)
