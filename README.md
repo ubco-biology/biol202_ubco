@@ -225,7 +225,8 @@ dataset's `@source` field in the help pages.
 ## How to cite
 
 > Pither, J. (2026). *biol202: Teaching Datasets for BIOL 202, Introduction to
-> Biostatistics* (version 2026.1) [R package]. UBC Okanagan.
+> Biostatistics* [R package]. UBC Okanagan.
 > https://github.com/ubco-biology/biol202_ubco
 
-[TODO: add a Zenodo DOI if the package is archived for citation.]
+[TODO: add the version tag once the first term release is cut, and a Zenodo DOI if the
+package is archived for citation.]
